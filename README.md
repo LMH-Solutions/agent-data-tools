@@ -13,6 +13,22 @@ Remote MCP server with **11 data tools for AI agents**: web page / PDF to Markdo
 https://mcp.apify.com/?tools=lmhsolutions/web-page-to-markdown-pdf-to-text,lmhsolutions/sec-edgar-filings,lmhsolutions/openfda-intelligence,lmhsolutions/pypi-package-intelligence,lmhsolutions/npm-package-intelligence,lmhsolutions/huggingface-hub-scraper,lmhsolutions/grants-gov-scraper,lmhsolutions/usaspending-federal-awards,lmhsolutions/company-dossier,lmhsolutions/company-contact-extractor,lmhsolutions/website-change-monitor
 ```
 
+## Where it's listed
+
+- Official MCP Registry: [io.github.LMH-Solutions/agent-data-tools](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.LMH-Solutions/agent-data-tools)
+- Glama: [LMH Agent Data Tools](https://glama.ai/mcp/connectors/io.github.LMH-Solutions/agent-data-tools)
+- AptLynx: [LMH Agent Data Tools](https://aptlynx.net/servers/io.github.LMH-Solutions/agent-data-tools)
+- Apify Store: [lmhsolutions](https://apify.com/lmhsolutions) (each tool also runs on its own, by API or schedule)
+
+## Example prompts
+
+- "Get Apple's last 8 quarters of revenue and net income from SEC EDGAR, plus any Form 4 insider sales this month."
+- "List FDA drug recalls for semaglutide in the past year and the recruiting Phase 3 trials."
+- "Convert https://example.com/docs and this PDF to clean Markdown for my RAG index."
+- "Compare downloads, license and last release for the npm packages zod, yup and joi."
+- "Find open Grants.gov opportunities for rural broadband closing in the next 60 days."
+- "Which companies won the most USAspending contract dollars under NAICS 541512 last fiscal year?"
+
 ## Tools
 
 | Tool | What it returns | Apify page |
